@@ -25,4 +25,8 @@ fun main(){
 
   //Boolean Data type
   var bool: Boolean = true // This type of data type is a is used to store teh boolean values(True or false)
-  
+  println(bool)
+  bool = false // Updating the bool variable
+  println(bool)
+  val bool1: Boolean = false //This is a data type in which the value will not change
+  println(bool1)
