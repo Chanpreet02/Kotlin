@@ -30,3 +30,4 @@ fun main(){
   println(bool)
   val bool1: Boolean = false //This is a data type in which the value will not change
   println(bool1)
+}
