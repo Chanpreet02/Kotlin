@@ -16,3 +16,12 @@ fun main() {
    println("x * y = " +  (x * y))
    println("x % y = " +  (x % y))
 }
+
+/*
+Output of the following program would be:
+   x + y = 60
+   x - y = 20
+   x / y = 2
+   x * y = 800
+   x % y = 0
+*/
