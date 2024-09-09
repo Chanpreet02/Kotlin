@@ -15,5 +15,4 @@ fun main() {
    println("x / y = " +  (x / y))
    println("x * y = " +  (x * y))
    println("x % y = " +  (x % y))
-   
 }
