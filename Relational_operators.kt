@@ -19,3 +19,12 @@ fun main(){
    println("x != y = " +  (x != y))
 
 }
+/*
+Output of the following program would be:
+  x > y = true
+  x < y = false
+  x >= y = true
+  x <= y = false
+  x == y = false
+  x != y = true
+*/
