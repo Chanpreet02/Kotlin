@@ -33,5 +33,10 @@ fun main() {
     } else if (BMI >= 39.9) {
         println("You are gonna die soon go and have some operation")
     }
-    
+    println("Do you want to re run the calculator??")
+    println("If yes please press 1 or type YES(Only in capitals)")
+    var reoccur = readLine()
+    if(reoccur == "1" || reoccur =="YES"){
+        BMICalculator()
+    }
 }
