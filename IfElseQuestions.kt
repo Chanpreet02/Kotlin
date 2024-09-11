@@ -5,7 +5,7 @@ fun main(){
     println("Positive")
   }
   else{
-    println("Negative)
+    println("Negative")
   }
   //Write a program to check the greatoest of three numbers
   val num1 = 30
@@ -29,7 +29,7 @@ fun main(){
   }
 }
 //Wrie a program to check whether the year is a leap year or not
-val year = 2016
+val year:Int = 2016
 if(year % 4 == 0){
   println("The year $year is a leap year")
 }
