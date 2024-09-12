@@ -4,7 +4,7 @@ This is a Kotlin program in which I have entered a number and displaying the cor
 
 fun main(){
   println("Enter the month number and I'll tell which month it is")
-    var num:Int = 10
+    var num:Int = readLine()?.toInt()?:0
     when(num){
         1 ->println("January")
         2 -> println("February")
