@@ -4,6 +4,8 @@ Kotlin Program to practice some loops on while statement
 
 fun main(){
 Pattern()
+SumEvenNumbers()
+
 }
 
 
@@ -19,4 +21,19 @@ fun Pattern(){
         println("")
         lines--
     }
+}
+
+//Function to print the sum of even numbers present until the given number
+fun SumEvenNumbers(){
+    var num:Int=readLine()?.toInt()?:0
+    if(num%2 != 0){
+        num--
+    }
+    var sum=0
+//    println(num)
+while(num>0){
+    sum = num+sum
+    num=num-2
+}
+    println("The sum of even numbers tll the given number is: $sum")
 }
