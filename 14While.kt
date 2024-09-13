@@ -7,6 +7,8 @@ Pattern()
 SumEvenNumbers()
 SumEvenNumbersN()
 Factorial()
+println("The factorial of 5 is: ${Fact(5)}")
+
 }
 
 
@@ -64,4 +66,15 @@ fun Factorial(){
         n--
     }
     println("Factorial of $num is: $fact")
+}
+
+
+//Function to print the factorial using recursion
+fun Fact(num:Int):Int{
+    if(num>0){
+    return num*Fact(num-1)
+    }
+    else{
+        return 1
+    }
 }
