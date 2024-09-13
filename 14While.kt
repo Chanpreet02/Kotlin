@@ -8,6 +8,7 @@ SumEvenNumbers()
 SumEvenNumbersN()
 Factorial()
 println("The factorial of 5 is: ${Fact(5)}")
+Multiples()
 
 }
 
@@ -76,5 +77,16 @@ fun Fact(num:Int):Int{
     }
     else{
         return 1
+    }
+}
+
+
+
+//Function to print Multiples of 5 upto 100
+fun Multiples(){
+    var num=0
+    while(num<=100){
+        println(num)
+        num +=5
     }
 }
