@@ -10,6 +10,7 @@ Syntax:
 fun main(){
   basic()
   decrementByTwo()
+  Even()
 }
 
 fun basic(){
@@ -25,5 +26,11 @@ fun decrementByTwo(){//This is a function to decrement the numbers present with 
                    3
                    1
         */
+    }
+}
+
+fun Even(){ //Function to print even numbers from 2 till 20
+    for (i in 2..20 step 2) {
+        println(i)
     }
 }
