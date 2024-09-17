@@ -15,6 +15,7 @@ fun main(){
   Fibonacci()
   Divisibility()
   EvenNumber()
+  Pattern()
 }
 
 fun basic(){
@@ -79,4 +80,27 @@ fun EvenNumber(){ // Function to print the first 10 even Numbers
 
 
 
+fun Pattern(){
+    val rows = 5
+    for (i in 1..rows) {
+        for (j in rows downTo i + 1) {
+            print(" ")
+        }
+        for (k in 1..(2 * i - 1)) {
+            print("*")
+        }
+        println()
+    }
+}
+
+/*
+
+  Output
+    *
+   ***
+  *****
+ *******
+*********
+
+*/
 
