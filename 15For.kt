@@ -57,4 +57,11 @@ fun Fibonacci(){ //Function to print the fibonacci series
     }
 }
 
+fun Divisibility(){//Function to check the divisibility of a number by 3
+    for (i in 1..30) {
+        if (i % 3 == 0) {
+            println(i)
+        }
+    }
+}
 
