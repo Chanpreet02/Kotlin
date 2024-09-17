@@ -13,6 +13,7 @@ fun main(){
   Even()
   Table()
   Fibonacci()
+  Divisibility()
 }
 
 fun basic(){
