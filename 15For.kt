@@ -14,6 +14,7 @@ fun main(){
   Table()
   Fibonacci()
   Divisibility()
+  EvenNumber()
 }
 
 fun basic(){
@@ -65,4 +66,17 @@ fun Divisibility(){//Function to check the divisibility of a number by 3
         }
     }
 }
+
+
+fun EvenNumber(){ // Function to print the first 10 even Numbers
+    var count = 0
+    for (i in 2..20 step 2) {
+        println(i)
+        count++
+        if (count == 10) break
+    }
+}
+
+
+
 
