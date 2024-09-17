@@ -12,6 +12,7 @@ fun main(){
   decrementByTwo()
   Even()
   Table()
+  Fibonacci()
 }
 
 fun basic(){
@@ -44,5 +45,16 @@ fun Table(){//Function to print the multiples of 5 from 1 to 50
     }
 }
 
+
+fun Fibonacci(){ //Function to print the fibonacci series
+    var a = 0
+    var b = 1
+    while (a <= 100) {
+        println(a)
+        var next = a + b
+        a = b
+        b = next
+    }
+}
 
 
